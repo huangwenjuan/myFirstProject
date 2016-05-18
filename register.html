@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>注册 － 美丽说</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="css/common.css"/>
+    <link type="text/css" rel="stylesheet" href="css/register.css"/>
+</head>
+<body>
+<div class="wrap c100">
+    <div class="reg_head">
+        <a href="index.html" class="reg_logo"></a>
+        <a href="index.html" class="reg_txt"></a>
+    </div>
+
+    <div class="main clear_f">
+        <div class="main_left">
+            <img src="img/reg_logo.jpg" width="370" height="354" />
+
+        </div>
+        <div class="main_right">
+            <div class="reg_form">
+                <h3 class="reg_title"><a href="javascript:;">登录</a>注册美丽说</h3>
+                <form action="" class="register">
+                    <div  id="register">
+                     <div class="reg_item">
+                         <i class="tel_icon"></i>
+                         <input type="text" placeholder="手机号" />
+                         <i class="error_icon"></i>
+                         <span class="msg_error">你还没有填写手机号哦。</span>
+                     </div>
+                    <div class="reg_item">
+                        <i class="user_icon"></i>
+                        <input type="text" class="" placeholder="昵称" />
+                        <i class="error_icon"></i>
+                        <span class="msg_error">你还没有填写昵称哦。</span>
+                    </div>
+                    <div class="reg_item">
+                        <i class="pwd_icon"></i>
+                        <input type="password" class="" placeholder="密码" />
+                        <i class="error_icon"></i>
+                        <span class="msg_error">你还没有填写密码哦。</span>
+                        <!--<div class="pwd_safe">-->
+                            <!--<span class="pwd_txt">安全程度</span>-->
+                            <!--<em class="pwd_color">弱</em>-->
+                            <!--<em>中</em>-->
+                            <!--<em>强</em>-->
+                        <!--</div>-->
+                    </div>
+                    <div class="reg_item reg_pwd">
+                        <i class="pwd_icon"></i>
+                        <input type="password" class="" placeholder="确定密码" />
+                        <i class="error_icon"></i>
+                        <span class="msg_error">两次密码输入不一致，请重新输入。</span>
+                    </div>
+                    </div>
+                    <div class="reg_btn">
+                        <input type="button" value="立即注册" id="reg_btn" />
+                    </div>
+                    <div class="reg_agrre">
+                        <input type="checkbox" checked="checked">同意
+                        <a href="javascript:;" target="_blank">《美丽说注册条款》</a>
+                        <a href="javascript:;" target="_blank">《美丽说平台消费者规则》</a>
+                    </div>
+                </form>
+                <div class="fast_login">
+                    <h3>无需注册，即可登录</h3>
+
+                    <p>
+                        <a href="https://graph.qq.com/oauth/show?which=Login&display=pc&client_id=210915&redirect_uri=http%3A%2F%2Fwww.meilishuo.com%2Fconnect%2Fauth%2Fqzone&response_type=code&scope=do_like%2Cget_user_info%2Cget_info%2Cadd_share%2Cadd_topic%2Cadd_t%2Cadd_album%2Clist_album%2Cupload_pic%2Ccheck_page_fans%2Cget_fanslist%2Cnotify_tasksys%2Cadd_idol&state=10101d7db7ff6cae97486d1a64933c82&display="
+                           class="qq_login"></a>
+                        <a href="https://api.weibo.com/oauth2/authorize?client_id=463778370&redirect_uri=http%3A%2F%2Fwww.meilishuo.com%2Fconnect%2Fauth%2Fweibo&response_type=code&with_offical_account=1&scope=follow_app_official_microblog&state=17887b1580e348dfed4e6f4bcece7aa0"
+                           class="microblog"></a>
+                        <a href="https://open.weixin.qq.com/connect/qrconnect?appid=wx28b165b5a629bb11&redirect_uri=http%3A%2F%2Fm.meilishuo.com%2Fwx%2FconnectWeb&response_type=code&scope=snsapi_login&state=mls#wechat_redirect"
+                           class="weChat"></a>
+                    </p>
+                </div>
+                <div class="more_login">
+                    <a href="javascrpt:;" class="more_txt">更多登录方式>></a>
+
+                    <p class="more_img">
+                        <a href="https://open.t.qq.com/cgi-bin/oauth2/authorize?client_id=95fd1cb5bf304d259fdaec43297d8b33&redirect_uri=http%3A%2F%2Fwww.meilishuo.com%2Fconnect%2Fauth%2Ftxweibo%3FbaseUrl%3Dwww.meilishuo.com&response_type=code"
+                           class="txweibo"></a>
+                        <a href="https://www.douban.com/service/auth2/auth?client_id=04a7e6891d1b44000df7b39b5751cc00&redirect_uri=http%3A%2F%2Fwww.meilishuo.com%2Fconnect%2Fauth%2Fdouban&response_type=code"
+                           class="douban"></a>
+                        <a href="http://graph.renren.com/oauth/grant?client_id=b0b7bffe39384d7b833e0d75eeff7715&redirect_uri=http%3A%2F%2Fwww.meilishuo.com%2Fconnect%2Fauth%2Frenren&response_type=code&display=page&scope=publish_share+publish_blog+status_update+photo_upload+publish_feed+create_album+send_message+admin_page&state=4115db1280984433ce64c727a232954c&secure=true&origin=00000"
+                           class="renren"></a>
+                        <a href="http://openapi.baidu.com/oauth/2.0/authorize?response_type=code&client_id=vKaGQ5vpjIf4L4gfzHFBGSxb&redirect_uri=http%3A%2F%2Fwww.meilishuo.com%2Fconnect%2Fauth%2Fbaidu&scope=basic%2Cnetdisk&state=dcf8b448308e9c3c5f79f9009da08a30&display=page&force_login=1"
+                           class="baidu"></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="js/utils.js"></script>
+<script type="text/javascript" src="js/register.js"></script>
+</body>
+</html>
